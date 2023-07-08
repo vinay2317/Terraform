@@ -1,4 +1,5 @@
 # create security group for the application load balancer
+/*
 resource "aws_security_group" "alb_security_group" {
   name        = "alb security group"
   description = "enable http/https access on port 80/443"
@@ -65,3 +66,4 @@ resource "aws_security_group" "ecs_security_group" {
     Name = 
   }
 }
+*/
